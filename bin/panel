@@ -1,0 +1,26 @@
+#!/bin/sh
+
+PANEL_WM_NAME=bspwm_panel
+
+if xdo id -a "$PANEL_WM_NAME" > /dev/null ; then
+	printf "%s\n" "The panel is already running." >&2
+	exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+while :; do date +"%%{c}%a %b %e %H:%M"; sleep 5; done | \
+	lemonbar -n "$PANEL_WM_NAME" -b \
+		-f "-lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1" \
+		-F "#b9b9b9" -B "#101010" | sh &
+
+wid=$(xdo id -a "$PANEL_WM_NAME")
+tries_left=20
+while [ -z "$wid" -a "$tries_left" -gt 0 ] ; do
+	sleep 0.05
+	wid=$(xdo id -a "$PANEL_WM_NAME")
+	tries_left=$((tries_left - 1))
+done
+[ -n "$wid" ] && xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" "$wid"
+
+wait

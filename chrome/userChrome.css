@@ -1,0 +1,132 @@
+/* general {{{
+-----------------
+*/
+
+#window-controls,
+scrollbar,
+scrollbar scrollbarbutton,
+scrollbar gripper,
+scrollbar thumb,
+toolbarbutton#appmenu-toolbar-button,
+toolbarbutton#alltabs-button,
+.tab-icon-image,
+.tabs-closebutton-box,
+.tab-close-button,
+#urlbar dropmarker,
+#identity-box,
+#star-button,
+#go-button,
+.tab-throbber,
+.tabbrowser-arrowscrollbox > .scrollbutton-up,
+.tabbrowser-arrowscrollbox > .scrollbutton-down,
+#TabsToolbar::after,
+.notificationbox-stack,
+statuspanel {
+	display: none !important;
+}
+
+#nav-bar {
+	visibility: collapse !important;
+}
+
+#nav-bar > * {
+	visibility: visible !important;
+}
+
+/* }}} */
+
+
+/* tabs {{{
+--------------
+*/
+
+.tabbrowser-tab::before, .tabbrowser-tab::after {
+	background: url(none) !important;
+}
+
+.tab-background-start,
+.tab-background-end {
+	visibility: hidden !important;
+	box-shadow: none !important;
+	background: none !important;
+}
+
+.tab-background-middle {
+	background: none !important;
+}
+
+tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
+	-moz-appearance: none !important;
+	border: none !important;
+	border-radius: 0px !important;
+	background-image: none !important;
+	margin-top: 0px !important;
+	box-shadow: none !important;
+	max-height: 16px !important;
+	min-height: 12px !important;
+}
+
+tabs#tabbrowser-tabs {
+	background: #101010 !important;
+	padding: 2px !important;
+	text-align: center !important;
+	border: none !important;
+	box-shadow: none !important;
+	margin-left: -16px !important;
+	margin-right: -16px !important;
+}
+
+.tabbrowser-tab {
+	margin-left: 1px !important;
+	margin-right: 1px !important;
+	padding-top: 1px !important;
+	border: 0px none !important;
+	color: #ddd !important;
+	background: #595961 !important;
+	box-shadow: none !important;
+}
+
+.tabbrowser-tab:hover, .tabbrowser-tab:active {
+	background: #595961 !important;
+	color: #eee !important;
+}
+
+.tabbrowser-tab[selected=true], .tabbrowser-tab[selected=true]:hover {
+	color: #ddd !important;
+	background: #303030 !important;
+}
+
+.tabbrowser-tab .tab-text {
+	margin-left: 3px !important;
+	margin-right: 3px !important;
+	margin-top: 0px !important;
+	font-size: 8pt !important;
+	font-family: "tewi", "gothic", "k8x12S", "WenQuanYi Bitmap Song" !important;
+}
+
+.tabs-newtab-button {
+	display: none !important;
+}
+
+.tabs-newtab-button:hover, .tabs-newtab-button:active {
+	background: #44444d !important;
+}
+
+.tabs-newtab-button .toolbarbutton-icon {
+	list-style-image: none !important;
+}
+
+.titlebar-placeholder[type="caption-buttons"] {
+	margin-left: 10px !important;
+}
+
+.tabbrowser-tabs:not([drag=detach]) > .tabbrowser-tab:not([pinned])[fadein] {
+	min-width: 10px !important;
+	max-width: 100% !important;
+}
+
+.tab-background {
+	opacity: 0 !important;
+}
+
+/* }}} */

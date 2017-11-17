@@ -1,0 +1,33 @@
+*foreground: #b9b9b9
+*background: #101010
+
+*color0: #080c0d
+*color1: #e0374f
+*color2: #85c600
+*color3: #ffa600
+*color4: #0099bc
+*color5: #e50c88
+*color6: #7fc5c6
+*color7: #cccccc
+*color8: #283032
+*color9: #ff5b47
+*color10: #b3ff14
+*color11: #ffaa04
+*color12: #5adede
+*color13: #be4372
+*color14: #75b2b3
+*color15: #eeeeee
+
+URxvt.font: \
+        -gohu-gohufont-medium-r-normal--14-100-100-100-c-80-iso10646-1, \
+        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1, \
+        -lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1
+
+URxvt.boldFont: \
+        -gohu-gohufont-bold-r-normal--14-100-100-100-c-80-iso10646-1, \
+        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1, \
+        -lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1
+
+URxvt.saveLines: 100000
+URxvt.scrollBar: False
+URxvt.iso14755: False

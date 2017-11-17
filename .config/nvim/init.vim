@@ -1,0 +1,2 @@
+colorscheme template
+set ignorecase
