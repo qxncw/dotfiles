@@ -24,7 +24,7 @@ hi InfoMsg color: #b9b9b9; background: #101010;
 hi LineNr color: #b9b9b9; background: #101010;
 hi ModeMsg color: #b9b9b9; background: #101010;
 hi MoreMsg color: #b9b9b9; background: #101010;
-hi NonText color: lightblue; min-height: 8px; padding-left: 2px;
+hi NonText color: #464646; min-height: 8px; padding-left: 2px;
 hi Normal color: #b9b9b9; background: #101010;
 hi Number color: #b9b9b9; background: #101010;
 hi PromptText color: #b9b9b9; background: #101010; font-family: "tewi", "gothic", "k8x12S";
