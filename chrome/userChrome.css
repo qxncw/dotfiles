@@ -62,7 +62,7 @@ tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 	background-image: none !important;
 	margin-top: 0px !important;
 	box-shadow: none !important;
-	max-height: 16px !important;
+	max-height: 20px !important;
 	min-height: 12px !important;
 }
 
@@ -100,8 +100,8 @@ tabs#tabbrowser-tabs {
 	margin-left: 3px !important;
 	margin-right: 3px !important;
 	margin-top: 0px !important;
-	font-size: 8pt !important;
-	font-family: "tewi", "gothic", "k8x12S", "WenQuanYi Bitmap Song" !important;
+	font-size: 14px !important;
+	font-family: "GohuFont", "Fixed" !important;
 }
 
 .tabs-newtab-button {

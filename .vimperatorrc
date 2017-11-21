@@ -5,7 +5,7 @@ nnoremap K <C-p>
 
 hi Bell border: 0 none; background: #101010;
 hi CmdLine background: #101010; color: #b9b9b9;
-hi CmdLine>* font-family: "tewi", "gothic", "k8x12S";
+hi CmdLine>* font-family: "GohuFont", "Fixed";
 hi CompDesc color: #b9b9b9; width: 50%;
 hi CompIcon width: 12px; min-width: 12px; display: none; margin-right: .5ex;
 hi CompItem background: inherit; color: #ccc;
@@ -19,17 +19,17 @@ hi ErrorMsg color: #b9b9b9; background: #101010;
 hi Filter color: #afafaf;
 hi FrameIndicator background-color: #303030; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 hi Function color: #b9b9b9; background: #101010;
-hi Hint font-family: "monospace"; font-size: 12px; font-weight: bold; text-transform: uppercase; color: white; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 0px 1px 0px 1px;
+hi Hint font-family: "GohuFont"; font-size: 14px; font-weight: bold; text-transform: uppercase; color: white; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 0px 1px 0px 1px;
 hi InfoMsg color: #b9b9b9; background: #101010;
 hi LineNr color: #b9b9b9; background: #101010;
 hi ModeMsg color: #b9b9b9; background: #101010;
 hi MoreMsg color: #b9b9b9; background: #101010;
-hi NonText color: #464646; min-height: 8px; padding-left: 2px;
+hi NonText color: #464646; padding-left: 2px;
 hi Normal color: #b9b9b9; background: #101010;
 hi Number color: #b9b9b9; background: #101010;
-hi PromptText color: #b9b9b9; background: #101010; font-family: "tewi", "gothic", "k8x12S";
+hi PromptText color: #b9b9b9; background: #101010; font-family: "GohuFont", "Fixed";
 hi Question color: #b9b9b9; background: #101010;
-hi StatusLine color: #b9b9b9; background: #101010; max-height: 10px;
+hi StatusLine color: #b9b9b9; background: #101010;
 hi String color: #b9b9b9; background: #101010;
 hi Tag color: #b9b9b9; background: #101010;
 hi Title color: #b9b9b9; background: #101010;
@@ -43,8 +43,8 @@ style chrome://* <<EOM
 	#liberator-statusline > *,
 	#liberator-completions-content,
 	#liberator-multiline-output-content {
-		font-size: 8pt !important;
-		font-family: "tewi", "gothic", "k8x12S", "WenQuanYi Bitmap Song" !important;
+		font-size: 14px !important;
+		font-family: "GohuFont", "Fixed" !important;
 	}
 	#liberator-status-ssl {
 		display: none !important;

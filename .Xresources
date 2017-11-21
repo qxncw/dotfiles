@@ -20,13 +20,11 @@
 
 URxvt.font: \
         -gohu-gohufont-medium-r-normal--14-100-100-100-c-80-iso10646-1, \
-        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1, \
-        -lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1
+        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1
 
 URxvt.boldFont: \
         -gohu-gohufont-bold-r-normal--14-100-100-100-c-80-iso10646-1, \
-        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1, \
-        -lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1
+        -misc-fixed-medium-r-normal-ja-13-120-75-75-c-120-iso10646-1
 
 URxvt.saveLines: 100000
 URxvt.scrollBar: False
