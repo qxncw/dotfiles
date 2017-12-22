@@ -35,6 +35,9 @@ hi Tag color: #b9b9b9; background: #101010;
 hi Title color: #b9b9b9; background: #101010;
 hi URL text-decoration: none; color: #ababab; background: inherit;
 hi WarningMsg color: #b9b9b9; background: #101010;
+hi Indicator color: #b9b9b9;
+
+set nosb
 
 set complete=b
 
